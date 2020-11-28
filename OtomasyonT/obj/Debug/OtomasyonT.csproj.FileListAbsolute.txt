@@ -96,3 +96,7 @@ C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\bin\Deb
 C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\bin\Debug\ja\DevExpress.XtraTreeList.v18.1.resources.dll
 C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\bin\Debug\ru\DevExpress.XtraTreeList.v18.1.resources.dll
 C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\obj\Debug\OtomasyonT.FrmUrunler.resources
+C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\obj\Debug\OtomasyonT.FrmAnaModul.resources
+C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\obj\Debug\OtomasyonT.FrmMusteriler.resources
+C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\obj\Debug\OtomasyonT.FrmFirmalar.resources
+C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\obj\Debug\OtomasyonT.FrmPersonel.resources
