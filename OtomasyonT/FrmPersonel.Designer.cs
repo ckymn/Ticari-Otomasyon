@@ -58,6 +58,7 @@
             this.txtId = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.btnGuncelle = new DevExpress.XtraEditors.GroupControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.txtGorev.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cmbIlce.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cmbIl.Properties)).BeginInit();
@@ -157,11 +158,12 @@
             this.btnSil.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSil.Appearance.Options.UseFont = true;
             this.btnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSil.ImageOptions.Image")));
-            this.btnSil.Location = new System.Drawing.Point(80, 441);
+            this.btnSil.Location = new System.Drawing.Point(15, 456);
             this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(92, 34);
+            this.btnSil.Size = new System.Drawing.Size(92, 38);
             this.btnSil.TabIndex = 22;
             this.btnSil.Text = "Sil";
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnKaydet
             // 
@@ -173,6 +175,7 @@
             this.btnKaydet.Size = new System.Drawing.Size(94, 38);
             this.btnKaydet.TabIndex = 21;
             this.btnKaydet.Text = "Kaydet";
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // rchAdres
             // 
@@ -271,6 +274,9 @@
             // 
             // gridView1
             // 
+            this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.gridView1.Appearance.Row.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.gridView1.Appearance.Row.Options.UseBackColor = true;
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.gridColumn1,
             this.gridColumn2,
@@ -278,6 +284,7 @@
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
             // 
             // gridColumn1
             // 
@@ -332,6 +339,7 @@
             // 
             // btnGuncelle
             // 
+            this.btnGuncelle.Controls.Add(this.simpleButton1);
             this.btnGuncelle.Controls.Add(this.txtGorev);
             this.btnGuncelle.Controls.Add(this.labelControl11);
             this.btnGuncelle.Controls.Add(this.cmbIlce);
@@ -362,6 +370,18 @@
             this.btnGuncelle.TabIndex = 5;
             this.btnGuncelle.Text = "MUSTERILER";
             this.btnGuncelle.Paint += new System.Windows.Forms.PaintEventHandler(this.btnGuncelle_Paint);
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButton1.Location = new System.Drawing.Point(122, 456);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(94, 38);
+            this.simpleButton1.TabIndex = 32;
+            this.simpleButton1.Text = "Temizle";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // FrmPersonel
             // 
@@ -420,5 +440,6 @@
         private DevExpress.XtraEditors.TextEdit txtId;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.GroupControl btnGuncelle;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }

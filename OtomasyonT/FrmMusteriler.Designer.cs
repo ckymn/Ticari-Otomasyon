@@ -48,15 +48,15 @@
             this.txtId = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.btnGuncelle = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.mskTelefon1 = new System.Windows.Forms.MaskedTextBox();
-            this.mskTc = new System.Windows.Forms.MaskedTextBox();
-            this.cmbIl = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.cmbIlce = new DevExpress.XtraEditors.ComboBoxEdit();
             this.txtVergiDaire = new DevExpress.XtraEditors.TextEdit();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
+            this.cmbIlce = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.cmbIl = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.mskTc = new System.Windows.Forms.MaskedTextBox();
+            this.mskTelefon1 = new System.Windows.Forms.MaskedTextBox();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
+            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -66,11 +66,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtId.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnGuncelle)).BeginInit();
             this.btnGuncelle.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtVergiDaire.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmbIlce.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmbIl.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cmbIl.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cmbIlce.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtVergiDaire.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // simpleButton3
@@ -81,7 +81,7 @@
             this.simpleButton3.Location = new System.Drawing.Point(120, 397);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(96, 38);
-            this.simpleButton3.TabIndex = 23;
+            this.simpleButton3.TabIndex = 12;
             this.simpleButton3.Text = "Guncelle";
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
@@ -93,7 +93,7 @@
             this.btnSil.Location = new System.Drawing.Point(80, 441);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(92, 34);
-            this.btnSil.TabIndex = 22;
+            this.btnSil.TabIndex = 12;
             this.btnSil.Text = "Sil";
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
@@ -105,7 +105,7 @@
             this.btnKaydet.Location = new System.Drawing.Point(13, 397);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(94, 38);
-            this.btnKaydet.TabIndex = 21;
+            this.btnKaydet.TabIndex = 11;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
@@ -114,7 +114,7 @@
             this.rchAdres.Location = new System.Drawing.Point(100, 320);
             this.rchAdres.Name = "rchAdres";
             this.rchAdres.Size = new System.Drawing.Size(116, 68);
-            this.rchAdres.TabIndex = 20;
+            this.rchAdres.TabIndex = 10;
             this.rchAdres.Text = "";
             // 
             // labelControl10
@@ -174,7 +174,7 @@
             this.txtMail.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtMail.Properties.Appearance.Options.UseFont = true;
             this.txtMail.Size = new System.Drawing.Size(116, 24);
-            this.txtMail.TabIndex = 8;
+            this.txtMail.TabIndex = 6;
             // 
             // labelControl4
             // 
@@ -193,7 +193,7 @@
             this.txtSoyad.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtSoyad.Properties.Appearance.Options.UseFont = true;
             this.txtSoyad.Size = new System.Drawing.Size(116, 24);
-            this.txtSoyad.TabIndex = 6;
+            this.txtSoyad.TabIndex = 2;
             // 
             // labelControl3
             // 
@@ -212,7 +212,7 @@
             this.txtAd.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtAd.Properties.Appearance.Options.UseFont = true;
             this.txtAd.Size = new System.Drawing.Size(116, 24);
-            this.txtAd.TabIndex = 4;
+            this.txtAd.TabIndex = 1;
             // 
             // labelControl2
             // 
@@ -231,7 +231,7 @@
             this.mskTelefon2.Mask = "(999) 000-0000";
             this.mskTelefon2.Name = "mskTelefon2";
             this.mskTelefon2.Size = new System.Drawing.Size(116, 26);
-            this.mskTelefon2.TabIndex = 2;
+            this.mskTelefon2.TabIndex = 4;
             // 
             // txtId
             // 
@@ -287,6 +287,77 @@
             this.btnGuncelle.Text = "MUSTERILER";
             this.btnGuncelle.Paint += new System.Windows.Forms.PaintEventHandler(this.btnGuncelle_Paint);
             // 
+            // txtVergiDaire
+            // 
+            this.txtVergiDaire.Location = new System.Drawing.Point(100, 290);
+            this.txtVergiDaire.Name = "txtVergiDaire";
+            this.txtVergiDaire.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtVergiDaire.Properties.Appearance.Options.UseFont = true;
+            this.txtVergiDaire.Size = new System.Drawing.Size(116, 24);
+            this.txtVergiDaire.TabIndex = 9;
+            // 
+            // labelControl11
+            // 
+            this.labelControl11.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl11.Appearance.Options.UseFont = true;
+            this.labelControl11.Location = new System.Drawing.Point(13, 293);
+            this.labelControl11.Name = "labelControl11";
+            this.labelControl11.Size = new System.Drawing.Size(75, 18);
+            this.labelControl11.TabIndex = 30;
+            this.labelControl11.Text = "Vergi Daire:";
+            // 
+            // cmbIlce
+            // 
+            this.cmbIlce.Location = new System.Drawing.Point(100, 260);
+            this.cmbIlce.Name = "cmbIlce";
+            this.cmbIlce.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbIlce.Properties.Appearance.Options.UseFont = true;
+            this.cmbIlce.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cmbIlce.Size = new System.Drawing.Size(116, 24);
+            this.cmbIlce.TabIndex = 8;
+            // 
+            // cmbIl
+            // 
+            this.cmbIl.Location = new System.Drawing.Point(100, 230);
+            this.cmbIl.Name = "cmbIl";
+            this.cmbIl.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbIl.Properties.Appearance.Options.UseFont = true;
+            this.cmbIl.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cmbIl.Size = new System.Drawing.Size(116, 24);
+            this.cmbIl.TabIndex = 7;
+            this.cmbIl.SelectedIndexChanged += new System.EventHandler(this.cmbIl_SelectedIndexChanged);
+            // 
+            // mskTc
+            // 
+            this.mskTc.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.mskTc.Location = new System.Drawing.Point(100, 166);
+            this.mskTc.Mask = "00000000000";
+            this.mskTc.Name = "mskTc";
+            this.mskTc.Size = new System.Drawing.Size(116, 26);
+            this.mskTc.TabIndex = 5;
+            this.mskTc.ValidatingType = typeof(int);
+            // 
+            // mskTelefon1
+            // 
+            this.mskTelefon1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.mskTelefon1.Location = new System.Drawing.Point(100, 103);
+            this.mskTelefon1.Mask = "(999) 000-0000";
+            this.mskTelefon1.Name = "mskTelefon1";
+            this.mskTelefon1.Size = new System.Drawing.Size(116, 26);
+            this.mskTelefon1.TabIndex = 3;
+            // 
+            // labelControl6
+            // 
+            this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl6.Appearance.Options.UseFont = true;
+            this.labelControl6.Location = new System.Drawing.Point(70, 233);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(13, 18);
+            this.labelControl6.TabIndex = 24;
+            this.labelControl6.Text = "Il:";
+            // 
             // gridControl1
             // 
             this.gridControl1.Location = new System.Drawing.Point(0, 2);
@@ -300,6 +371,9 @@
             // 
             // gridView1
             // 
+            this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.gridView1.Appearance.Row.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.gridView1.Appearance.Row.Options.UseBackColor = true;
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.gridColumn1,
             this.gridColumn2,
@@ -308,77 +382,6 @@
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
-            // 
-            // labelControl6
-            // 
-            this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelControl6.Appearance.Options.UseFont = true;
-            this.labelControl6.Location = new System.Drawing.Point(70, 233);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(13, 18);
-            this.labelControl6.TabIndex = 24;
-            this.labelControl6.Text = "Il:";
-            // 
-            // mskTelefon1
-            // 
-            this.mskTelefon1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.mskTelefon1.Location = new System.Drawing.Point(100, 103);
-            this.mskTelefon1.Mask = "(999) 000-0000";
-            this.mskTelefon1.Name = "mskTelefon1";
-            this.mskTelefon1.Size = new System.Drawing.Size(116, 26);
-            this.mskTelefon1.TabIndex = 26;
-            // 
-            // mskTc
-            // 
-            this.mskTc.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.mskTc.Location = new System.Drawing.Point(100, 166);
-            this.mskTc.Mask = "00000000000";
-            this.mskTc.Name = "mskTc";
-            this.mskTc.Size = new System.Drawing.Size(116, 26);
-            this.mskTc.TabIndex = 27;
-            this.mskTc.ValidatingType = typeof(int);
-            // 
-            // cmbIl
-            // 
-            this.cmbIl.Location = new System.Drawing.Point(100, 230);
-            this.cmbIl.Name = "cmbIl";
-            this.cmbIl.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cmbIl.Properties.Appearance.Options.UseFont = true;
-            this.cmbIl.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cmbIl.Size = new System.Drawing.Size(116, 24);
-            this.cmbIl.TabIndex = 28;
-            this.cmbIl.SelectedIndexChanged += new System.EventHandler(this.cmbIl_SelectedIndexChanged);
-            // 
-            // cmbIlce
-            // 
-            this.cmbIlce.Location = new System.Drawing.Point(100, 260);
-            this.cmbIlce.Name = "cmbIlce";
-            this.cmbIlce.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cmbIlce.Properties.Appearance.Options.UseFont = true;
-            this.cmbIlce.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cmbIlce.Size = new System.Drawing.Size(116, 24);
-            this.cmbIlce.TabIndex = 29;
-            // 
-            // txtVergiDaire
-            // 
-            this.txtVergiDaire.Location = new System.Drawing.Point(100, 290);
-            this.txtVergiDaire.Name = "txtVergiDaire";
-            this.txtVergiDaire.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtVergiDaire.Properties.Appearance.Options.UseFont = true;
-            this.txtVergiDaire.Size = new System.Drawing.Size(116, 24);
-            this.txtVergiDaire.TabIndex = 31;
-            // 
-            // labelControl11
-            // 
-            this.labelControl11.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelControl11.Appearance.Options.UseFont = true;
-            this.labelControl11.Location = new System.Drawing.Point(13, 293);
-            this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(75, 18);
-            this.labelControl11.TabIndex = 30;
-            this.labelControl11.Text = "Vergi Daire:";
             // 
             // gridColumn1
             // 
@@ -409,11 +412,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnGuncelle)).EndInit();
             this.btnGuncelle.ResumeLayout(false);
             this.btnGuncelle.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtVergiDaire.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmbIlce.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmbIl.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cmbIl.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cmbIlce.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtVergiDaire.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

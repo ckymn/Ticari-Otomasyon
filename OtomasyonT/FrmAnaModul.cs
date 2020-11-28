@@ -57,8 +57,31 @@ namespace OtomasyonT
             if(fr4 == null)
             {
                 fr4 = new FrmPersonel();
-                fr3.MdiParent = this;
+                fr4.MdiParent = this;
                 fr4.Show();
+            }
+        }
+        FrmRehber fr5;
+        private void btnRehber_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            // daha once fr5 hic acilmadiysa
+            if (fr5 == null)
+            {
+                fr5 = new FrmRehber();
+                fr5.MdiParent = this;
+                fr5.Show();
+            }
+        }
+
+        FrmFaturalar fr6;
+        private void btnFaturalar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+            if (fr6 == null)
+            {
+                fr6 = new FrmFaturalar();
+                fr6.MdiParent = this;
+                fr6.Show();
             }
         }
     }

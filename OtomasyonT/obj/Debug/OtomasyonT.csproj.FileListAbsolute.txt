@@ -100,3 +100,21 @@ C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\obj\Deb
 C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\obj\Debug\OtomasyonT.FrmMusteriler.resources
 C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\obj\Debug\OtomasyonT.FrmFirmalar.resources
 C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\obj\Debug\OtomasyonT.FrmPersonel.resources
+C:\Users\cokya\Masaüstü\Ticari Otomasyon Projesi\OtomasyonT\OtomasyonT\obj\Debug\OtomasyonT.FrmRehber.resources
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.csprojAssemblyReference.cache
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.FrmAnaModul.resources
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.FrmFaturalar.resources
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.FrmFirmalar.resources
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.FrmMail.resources
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.FrmMusteriler.resources
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.FrmPersonel.resources
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.FrmRehber.resources
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.FrmUrunler.resources
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.Properties.Resources.resources
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.csproj.GenerateResource.cache
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.exe.licenses
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.csproj.CoreCompileInputs.cache
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.exe
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.pdb
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.FrmFaturaUrunDetay.resources
+C:\Users\cokya\OneDrive\Belgeler\GitHub\Ticari-Otomasyon\OtomasyonT\obj\Debug\OtomasyonT.FrmAdmin.resources

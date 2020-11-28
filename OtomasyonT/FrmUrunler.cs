@@ -18,8 +18,9 @@ namespace OtomasyonT
             InitializeComponent();
         }
 
-
+        // sql baglantisi
         sqlbaglantisi bgl = new sqlbaglantisi();
+        // urun listeleme
         void listele()
         {
             DataTable dt = new DataTable();
@@ -29,10 +30,23 @@ namespace OtomasyonT
             gridControl1.DataSource = dt;
         }
 
+        // URUN TEK TUS ILE TEMIZLEME
+        void temizle()
+        {
+            txtAd.Text = "";
+            txtMarka.Text = "";
+            txtModel.Text = "";
+            mskYil.Text = "";
+            nudAdet.Value = 0;
+            txtAlis.Text = "";
+            txtSatis.Text = "";
+            rchDetay.Text = "";
+        }
         private void FrmUrunler_Load(object sender, EventArgs e)
         {
             // form yuklendigi zaman listele metodunu calistir
             listele();
+            temizle();
         }
 
         private void btnKaydet_Click(object sender, EventArgs e)
@@ -116,6 +130,11 @@ namespace OtomasyonT
                 rchDetay.Text = dr["DETAY"].ToString();
             }
 
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            temizle();
         }
     }
 }

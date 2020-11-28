@@ -53,6 +53,7 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.btnGuncelle)).BeginInit();
             this.btnGuncelle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtSatis.Properties)).BeginInit();
@@ -68,6 +69,7 @@
             // 
             // btnGuncelle
             // 
+            this.btnGuncelle.Controls.Add(this.simpleButton1);
             this.btnGuncelle.Controls.Add(this.simpleButton3);
             this.btnGuncelle.Controls.Add(this.btnSil);
             this.btnGuncelle.Controls.Add(this.btnKaydet);
@@ -91,7 +93,7 @@
             this.btnGuncelle.Controls.Add(this.labelControl1);
             this.btnGuncelle.Location = new System.Drawing.Point(729, 0);
             this.btnGuncelle.Name = "btnGuncelle";
-            this.btnGuncelle.Size = new System.Drawing.Size(221, 480);
+            this.btnGuncelle.Size = new System.Drawing.Size(221, 511);
             this.btnGuncelle.TabIndex = 1;
             this.btnGuncelle.Text = "groupControl1";
             // 
@@ -103,7 +105,7 @@
             this.simpleButton3.Location = new System.Drawing.Point(113, 360);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(96, 38);
-            this.simpleButton3.TabIndex = 23;
+            this.simpleButton3.TabIndex = 10;
             this.simpleButton3.Text = "Guncelle";
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
@@ -112,10 +114,11 @@
             this.btnSil.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSil.Appearance.Options.UseFont = true;
             this.btnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSil.ImageOptions.Image")));
+            this.btnSil.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.btnSil.Location = new System.Drawing.Point(66, 404);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(92, 34);
-            this.btnSil.TabIndex = 22;
+            this.btnSil.TabIndex = 11;
             this.btnSil.Text = "Sil";
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
@@ -127,7 +130,7 @@
             this.btnKaydet.Location = new System.Drawing.Point(5, 360);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(94, 38);
-            this.btnKaydet.TabIndex = 21;
+            this.btnKaydet.TabIndex = 9;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
@@ -136,7 +139,7 @@
             this.rchDetay.Location = new System.Drawing.Point(93, 276);
             this.rchDetay.Name = "rchDetay";
             this.rchDetay.Size = new System.Drawing.Size(116, 68);
-            this.rchDetay.TabIndex = 20;
+            this.rchDetay.TabIndex = 8;
             this.rchDetay.Text = "";
             // 
             // labelControl10
@@ -166,7 +169,7 @@
             this.txtSatis.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtSatis.Properties.Appearance.Options.UseFont = true;
             this.txtSatis.Size = new System.Drawing.Size(116, 24);
-            this.txtSatis.TabIndex = 17;
+            this.txtSatis.TabIndex = 7;
             // 
             // labelControl8
             // 
@@ -194,7 +197,7 @@
             this.nudAdet.Location = new System.Drawing.Point(93, 177);
             this.nudAdet.Name = "nudAdet";
             this.nudAdet.Size = new System.Drawing.Size(116, 26);
-            this.nudAdet.TabIndex = 11;
+            this.nudAdet.TabIndex = 5;
             // 
             // txtModel
             // 
@@ -203,7 +206,7 @@
             this.txtModel.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtModel.Properties.Appearance.Options.UseFont = true;
             this.txtModel.Size = new System.Drawing.Size(116, 24);
-            this.txtModel.TabIndex = 10;
+            this.txtModel.TabIndex = 3;
             // 
             // labelControl5
             // 
@@ -222,7 +225,7 @@
             this.txtAlis.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtAlis.Properties.Appearance.Options.UseFont = true;
             this.txtAlis.Size = new System.Drawing.Size(116, 24);
-            this.txtAlis.TabIndex = 8;
+            this.txtAlis.TabIndex = 6;
             // 
             // labelControl4
             // 
@@ -241,7 +244,7 @@
             this.txtMarka.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtMarka.Properties.Appearance.Options.UseFont = true;
             this.txtMarka.Size = new System.Drawing.Size(116, 24);
-            this.txtMarka.TabIndex = 6;
+            this.txtMarka.TabIndex = 2;
             // 
             // labelControl3
             // 
@@ -260,7 +263,7 @@
             this.txtAd.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtAd.Properties.Appearance.Options.UseFont = true;
             this.txtAd.Size = new System.Drawing.Size(116, 24);
-            this.txtAd.TabIndex = 4;
+            this.txtAd.TabIndex = 1;
             // 
             // labelControl2
             // 
@@ -279,7 +282,7 @@
             this.mskYil.Mask = "0000";
             this.mskYil.Name = "mskYil";
             this.mskYil.Size = new System.Drawing.Size(116, 26);
-            this.mskYil.TabIndex = 2;
+            this.mskYil.TabIndex = 4;
             this.mskYil.ValidatingType = typeof(int);
             // 
             // txtId
@@ -303,6 +306,9 @@
             // 
             // gridView1
             // 
+            this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.gridView1.Appearance.Row.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.gridView1.Appearance.Row.Options.UseBackColor = true;
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
@@ -313,16 +319,28 @@
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(723, 480);
+            this.gridControl1.Size = new System.Drawing.Size(723, 511);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButton1.Location = new System.Drawing.Point(62, 444);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(96, 38);
+            this.simpleButton1.TabIndex = 12;
+            this.simpleButton1.Text = "Temizle";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // FrmUrunler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(950, 482);
+            this.ClientSize = new System.Drawing.Size(950, 512);
             this.Controls.Add(this.btnGuncelle);
             this.Controls.Add(this.gridControl1);
             this.Name = "FrmUrunler";
@@ -369,5 +387,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }
